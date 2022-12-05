@@ -1,0 +1,46 @@
+
+html, body{ 
+  background: url(bla.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+font-size: 3em;
+color: whitesmoke;
+}
+
+hr {
+   margin: 20px auto;
+   color: turquoise;
+   border: 3px solid turquoise;
+   max-width: 65px;
+   opacity: 2;
+}
+
+.buffer {
+       height: 10rem;
+}
+
+.btn {
+     font-weight: 700;
+     border-radius: 300px;
+     text-transform: uppercase;
+}
+
+.btn-dark {
+         background-color: turquoise;
+         border-color: turquoise;
+}
+
+.btn-dark:hover {
+          background-color: darkgray;
+          border-color: darkgray;
+          border-width: 4px ;
+}
+
+.btn-xl {
+         padding: 1rem 2rem;
+}
